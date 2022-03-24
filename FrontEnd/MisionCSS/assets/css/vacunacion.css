@@ -1,0 +1,24 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+.nav-bar-color{
+    background-color: blue;
+}
+.nav-bar-personalizado{
+    padding-left: 35px !important;
+}
+
+.nav-bar-margen{
+    margin-left: 40%;
+}
+
+.nav-bar-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-bar-boton{
+    background-color: linear-gradient(90deg, #020024 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
