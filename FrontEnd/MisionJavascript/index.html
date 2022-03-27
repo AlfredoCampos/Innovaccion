@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+
+    <link href="./assets/css/pokedex.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/pokebola.png">
+    <title>Pokedex Launch x</title>
+</head>
+    <body>
+        <div id="pokedex">
+            <div id="left">
+            <div id="logo"></div>
+            <div id="bg_curve1_left"></div>
+            <div id="bg_curve2_left"></div>
+            <div id="curve1_left">
+                <div id="buttonGlass">
+                <div id="reflect"> </div>
+                </div>
+                <div id="miniButtonGlass1"></div>
+                <div id="miniButtonGlass2"></div>
+                <div id="miniButtonGlass3"></div>
+            </div>
+            <div id="curve2_left">
+                <div id="junction">
+                <div id="junction1"></div>
+                <div id="junction2"></div>
+                </div>
+            </div>
+            <div id="screen">
+                <div id="topPicture">
+                <div id="buttontopPicture1"></div>
+                <div id="buttontopPicture2"></div>
+                </div>
+                <div id="picture">
+                <img id="pokeImg" src="./assets/img/pokebola.png" alt="psykokwak" height="170" />
+                </div>
+                <div id="buttonbottomPicture">
+                    <button class="btn btn-dark" onclick="buscarPokemon()">Buscar</button>
+                </div>
+                <div id="speakers">
+                    <input id="nombrePokemon" type="text" class="form-control">
+                </div>
+            </div>
+            <div id="bigbluebutton"></div>
+            <div id="barbutton1"></div>
+            <div id="barbutton2"></div>
+            <div id="cross">
+                <div id="leftcross">
+                <div id="leftT"></div>
+                </div>
+                <div id="topcross">
+                <div id="upT"></div>
+                </div>
+                <div id="rightcross">
+                <div id="rightT"></div>
+                </div>
+                <div id="midcross">
+                <div id="midCircle"></div>
+                </div>
+                <div id="botcross">
+                <div id="downT"></div>
+                </div>
+            </div>
+            </div>
+            <div id="right">
+            <div id="stats">
+                
+                <div class="row"><strong>Nombre: </strong><span class="badge badge-success" id="statsNombre"></span></div>
+                <div class="row"><strong>Tipo: </strong><span id="statsTipo"></span></div>
+                <div class="row"><strong>Ataque: </strong><span id="statsAtaque"></span></div>
+                <div class="row"><strong>Defensa: </strong><span id="statsDefensa"></span></div>
+                <div class="row"><strong>Vel: </strong><span id="statsVel"></span></div>
+                        
+            </div>
+            <div id="blueButtons1">
+                <div class="blueButton blueButtonEsquinaTopLeft"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton blueButtonEsquinaTopRight"></div>
+            </div>
+            <div id="blueButtons2">
+                <div class="blueButton blueButtonEsquinaBottomLeft"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton blueButtonEsquinaBottomRight"></div>
+            </div>
+            <div id="miniButtonGlass4"></div>
+            <div id="miniButtonGlass5"></div>
+            <div id="barbutton3"></div>
+            <div id="barbutton4"></div>
+            <div id="yellowBox1">
+                <div class="row"><h5>Altura:</h5><span id="altura" ></span></div>
+            </div>
+            <div id="yellowBox2">
+                <div class="row"><h5>Peso:</h5><span id="peso"></span></div>
+            </div>
+            <div id="bg_curve1_right"></div>
+            <div id="bg_curve2_right"></div>
+            <div id="curve1_right"></div>
+            <div id="curve2_right"></div>
+            </div>
+        </div>
+        <script src="./assets/js/pokedex.js"></script>
+    </body>
+</html>
